@@ -19,15 +19,14 @@ public class Customer{
     public int getAccNo(){
         return this.accNo;
     }
-    public void  setAccNo(int accNo){
+    public void setAccNo(int accNo){
         System.out.println(accNo);
         this.accNo=accNo;
     }
-   public  void addAmount(int amount){
+   public void addAmount(int amount){
         this.balance+=amount;
    }
    public void reduceAmount(int amount){
-
     this.balance-=amount;
    }
    public int viewbalance(){
