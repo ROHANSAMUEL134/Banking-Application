@@ -11,7 +11,7 @@ public class Main{
 
         int loop=1;
         while(loop==1){
-            System.out.println("welcome to Banking System");
+            System.out.println("Welcome to Banking System");
             System.out.println("1. Add Account");
             System.out.println("2. Display customer details");
             System.out.println("3. Do Transaction");
