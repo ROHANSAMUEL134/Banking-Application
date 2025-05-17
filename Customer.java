@@ -5,12 +5,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Customer{
-    private  String name;
-    private  int accNo;
+    private String name;
+    private int accNo;
     private int balance;
     private String password;
     private ArrayList<TransactionHistory> history=new ArrayList<>();
-    public  Customer(){
+    public Customer(){
         this.balance=1000;
     }
     public String getName(){
