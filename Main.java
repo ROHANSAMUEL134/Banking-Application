@@ -14,7 +14,7 @@ public class Main{
             System.out.println("welcome to Banking System");
             System.out.println("1. Add Account");
             System.out.println("2. Display customer details");
-            System.out.println("3.Do Transaction");
+            System.out.println("3. Do Transaction");
             System.out.println("4. History");
             System.out.println("press anyother key to exit");
             int choice=Integer.parseInt(scanner.nextLine());
