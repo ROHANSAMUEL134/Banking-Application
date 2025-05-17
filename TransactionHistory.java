@@ -2,9 +2,9 @@ public class TransactionHistory{
     private String sender;
     private int senderAccNo;
     private String receiver;
-    private  int receiverAccNo;
+    private int receiverAccNo;
     private int amount;
-    private  String transferType;
+    private String transferType;
 
     public TransactionHistory(int senderAccNo,String senderName,int receiverAccNo,String receiverName,String transferType,int amount) {
         this.senderAccNo=senderAccNo;
