@@ -34,9 +34,9 @@ public class Display{
             Scanner scanner = new Scanner(System.in);
             try{
                  
-                System.out.println("enter your accNo");
+                System.out.println("Enter your accNo");
                 int accNo=Integer.parseInt(scanner.nextLine());
-                System.out.println("enter your password");
+                System.out.println("Enter your password");
                 String password=scanner.nextLine();
                  
                 
@@ -52,21 +52,20 @@ public class Display{
                     System.out.println(decrptpassword);
 
                     if(decrptpassword.equals(password)){
-                        System.out.println("new code testing");
                         Display.show(temp);
                     }
                     else{
-                        System.out.println("your Password is Wrong");
+                        System.out.println("Your Password is Wrong!");
                     }
                     
                 }
             
         } catch (NumberFormatException e) {
-            System.out.println("enter valid account number");
+            System.out.println("Enter valid account number : ");
 
         }
         catch(Exception e){
-            System.out.println("exception occuredd"+e.getMessage());
+            System.out.println("Exception occured :"+e.getMessage());
         }
         
     }
