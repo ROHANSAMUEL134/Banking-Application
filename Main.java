@@ -25,13 +25,13 @@ public class Main{
                     System.out.println("enter password");
                     String password=scanner.nextLine();
                     while(Validation.nameCheck(name)!=true){
-                        System.out.println("please enter valid name");
+                        System.out.println("Please enter valid name : ");
                         name=scanner.nextLine();
 
                     }
                     
                     while (Validation.passwordCheck(password)!=true){
-                        System.out.println("give Strong password");
+                        System.out.println("Give Strong password : ");
                         password=scanner.nextLine();
                     }
                     Create.create(name,password,accNo++);
