@@ -5,7 +5,6 @@ public class Main{
     public static  void thank(){
         System.out.print("Thank you for visiting..");
     }
-    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args) {
 
         Scanner scanner =new Scanner(System.in);
