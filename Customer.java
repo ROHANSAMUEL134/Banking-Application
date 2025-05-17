@@ -27,23 +27,23 @@ public class Customer{
         this.balance+=amount;
    }
    public void reduceAmount(int amount){
-    this.balance-=amount;
+        this.balance-=amount;
    }
    public int viewbalance(){
-    return this.balance;
+        return this.balance;
    }
    public void setPassword(String password){
-    this.password=password;
+        this.password=password;
    }
    public String getPassword(){
-    return this.password;
+        return this.password;
    } 
 
    public List<TransactionHistory> getHistory(){
-    return this.history;
+        return this.history;
    } 
    public void addHistory(TransactionHistory hist){
-    this.history.add(hist);
+        this.history.add(hist);
    }
 
 }
