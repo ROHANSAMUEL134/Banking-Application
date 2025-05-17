@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Main{
-    static int accNo=0000;
+    static int accNo=0;
     public static  void thank(){
         System.out.print("Thank you for visiting..");
     }
