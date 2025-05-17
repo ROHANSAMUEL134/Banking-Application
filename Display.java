@@ -14,10 +14,10 @@ public class Display{
         int key=3;
         for(int i=0;i<n;i++){
             if(Character.isDigit(password.charAt(i))){
-                decryptString+=(char)(((password.charAt(i)-'0'-key+26)%26)+'0');
+                decryptString+=(char)(((password.charAt(i)-'0'-key+10)%10)+'0');
             }
             else if(Character.isUpperCase(password.charAt(i))){
-                decryptString+=(char) (((password.charAt(i)-'A'-key+26)%26)+'A');
+                decryptString+=(char)(((password.charAt(i)-'A'-key+26)%26)+'A');
             }
             else if(Character.isLowerCase(password.charAt(i))){
                 decryptString+=(char)(((password.charAt(i)-'a'-key+26)%26)+'a');
