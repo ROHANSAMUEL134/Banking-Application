@@ -3,9 +3,9 @@ import java.util.Scanner;
 
 public class Display{
     public static  void show(Customer customer){
-        System.out.println("name:"+customer.getName());
-        System.out.println("accNo:"+customer.getAccNo());
-        System.out.println("balance"+customer.viewbalance());
+        System.out.println("Name : "+customer.getName());
+        System.out.println("AccNo : "+customer.getAccNo());
+        System.out.println("Balance : "+customer.viewbalance());
 
     }
     public static String decryption(String password){
