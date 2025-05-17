@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Main{
     static int accNo=0;
-    public static  void thank(){
+    public static void thank(){
         System.out.print("Thank you for visiting..");
     }
     public static void main(String[] args) {
