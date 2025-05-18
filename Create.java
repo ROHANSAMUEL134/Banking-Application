@@ -33,11 +33,12 @@ public class Create {
             String encryptString = encryption(password);
             
             Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3030/bank_app", "rohan", "Rohan@134");
-            String sql = "INSERT INTO customers (accNo, name, password) VALUES (?, ?, ?)";
+            String sql = "INSERT INTO customers (accNo, name, password, balance) VALUES (?, ?, ?, ?)";
             PreparedStatement stmt = con.prepareStatement(sql);
             stmt.setInt(1, accNo);
             stmt.setString(2, name);
             stmt.setString(3, encryptString);
+            stmt.setDouble(4, 0.0); 
             stmt.executeUpdate();
             con.close();
 
