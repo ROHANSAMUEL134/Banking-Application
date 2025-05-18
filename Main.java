@@ -13,7 +13,7 @@ public class Main {
 
     public static void initializeAccNo() {
         try {
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/bank", "root", "yourpassword");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3030/bank_app", "rohan", "Rohan@134");
             Statement stmt = con.createStatement();
             ResultSet rs = stmt.executeQuery("SELECT MAX(accNo) AS maxAcc FROM customers");
             if (rs.next()) {
